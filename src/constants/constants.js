@@ -1,4 +1,4 @@
-import {ai, ecommerce, gallery04, logo} from '../assets/images/gallery'
+import {ai, ecommerce, gallery04, logo} from '../assets/assets'
 
 export const projects = [
   {
