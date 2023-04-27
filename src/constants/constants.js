@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Ecommerce',
+    description: "A modern fullstack ecommerce app with nextjs, mongodb for database and stripe for payments",
+      image: '/images/1.png',
+      tags: ['React','Nextjs', 'Tailwindcss', 'Mongodb','Stripe'],
+    source: 'https://github.com/Uzo-Felix/ecommerce',
+    visit: 'https://ecommerce-muy6-8d2ui7ite-uzo-felix.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'Gpt-3',
     description: "Beautifully designed and highly responsive ui/ux React application transformed from figma design",
       image: '/images/1.png',
