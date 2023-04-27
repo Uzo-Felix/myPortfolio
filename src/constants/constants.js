@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Ecommerce',
     description: "A modern fullstack ecommerce app with nextjs, mongodb for database and stripe for payments",
-      image: '/images/1.png',
+      image: '../assets/ecommerce.jpg',
       tags: ['React','Nextjs', 'Tailwindcss', 'Mongodb','Stripe'],
     source: 'https://github.com/Uzo-Felix/ecommerce',
     visit: 'https://ecommerce-muy6-8d2ui7ite-uzo-felix.vercel.app/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Gpt-3',
     description: "Beautifully designed and highly responsive ui/ux React application transformed from figma design",
-      image: '/images/1.png',
+      image: '../assets/ai.png',
       tags: ['React', 'figma'],
     source: 'https://github.com/Uzo-Felix/gpt-3_Felix',
     visit: 'https://uzo-felix.github.io/gpt3/',
@@ -20,11 +20,20 @@ export const projects = [
   {
     title: 'Bank App',
     description: "Figma design transformed into react app",
-    image: '/images/2.png',
+    image: '../assets/logo.svg',
     tags: ['React', 'Vite', 'Tailwind'],
     source: 'https://github.com/Uzo-Felix/bank',
     visit: 'https://uzo-felix.github.io/bank',
     id: 1,
+  },
+  {
+    title: 'Restaurant',
+    description: "Figma design transformed into React App",
+    image: '../assets/gallery04.png',
+    tags: ['React', 'Figma'],
+    source: 'https://github.com/Uzo-Felix/restaurant',
+    visit: 'https://uzo-felix.github.io/restaurant',
+    id: 3,
   },
   {
     title: 'Reviews',
@@ -34,15 +43,6 @@ export const projects = [
     source: 'https://github.com/Uzo-Felix/Reviews',
     visit: 'https://uzo-felix.github.io/Reviews',
     id: 2,
-  },
-  {
-    title: 'Restaurant',
-    description: "Figma design transformed into React App",
-    image: '/images/4.jpg',
-    tags: ['React', 'Figma'],
-    source: 'https://github.com/Uzo-Felix/restaurant',
-    visit: 'https://uzo-felix.github.io/restaurant',
-    id: 3,
   },
 ];
 
