@@ -9,8 +9,8 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome to <br />
-          My portfolio Website!
+          Welcome!<br />
+          My name is UZOCHUKWU
         </SectionTitle>
         <SectionText>
         I am a frontend developer, I specialize in creating responsive user interfaces with HTML, CSS, JAVASCRIPT, REACT and its ecosystem of tools and libraries. 
