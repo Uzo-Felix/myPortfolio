@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      My name is Onyekwelu Uzochukwu Felix based in Nigeria, specializes in creating functional web applications using React.
+      My name is Onyekwelu Uzochukwu Felix. I am a graduate of Materials and Metallurgical Engineering from the Federal University of Technology, Owerri, and I have also completed the ALX Africa software engineering program.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
