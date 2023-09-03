@@ -1,7 +1,34 @@
 export const projects = [
   {
+    title: 'My Blog-Post',
+    description: "A fullstack blog app where user can read, create and edit blog post",
+    image: 'https://uzo-felix.github.io/myPortfolio/images/blog.PNG',
+    tags: ['React,', 'Mongodb,', 'nodeJs,', 'JWT,', 'AWS cloud Storage'],
+    source: 'https://github.com/Uzo-Felix/Blog-app',
+    visit: 'https://felix-blog-jhxt4i6s0-uzo-felix.vercel.app/',
+    id: 6,
+  },
+  {
+    title: 'Free Lunch Backend',
+    description: "Free lunch app that fosters team engagement by facilitating meal sharing.",
+    image: 'https://uzo-felix.github.io/myPortfolio/images/freeLunch.jpg',
+    tags: ['nodeJs,', 'MySQL,', 'prisma,','swagger ui'],
+    source: 'https://github.com/Uzo-Felix/free_lunch_backend',
+    visit: 'https://dust-shoulder-1b6.notion.site/Free-Lunch-Endpoint-27e5aa7bfd2a42788100fe93edde9cd5?pvs=4',
+    id: 7,
+  },
+  {
+    title: 'Learning Management System',
+    description: "LMS app that helps students Streamline, engage, and master tech courses effortlessly online.",
+    image: 'https://uzo-felix.github.io/myPortfolio/images/lampnet.PNG',
+    tags: ['React, Redux, webPack, NodeJs, MySQL, SpringBoot, Hibernate'],
+    source: 'https://github.com/Uzo-Felix/private_repos/blob/main/README.md',
+    visit: 'http://lms.lampnetinstitute.com/',
+    id: 7,
+  },
+  {
     title: 'Ecommerce',
-    description: "A modern fullstack ecommerce app with nextjs, mongodb for database and stripe for payments",
+    description: "A modern ecommerce app with nextjs, mongodb for database and stripe for payments",
       image: 'https://uzo-felix.github.io/myPortfolio/images/Capture.PNG',
       tags: ['React','Nextjs', 'Tailwindcss', 'Mongodb','Stripe'],
     source: 'https://github.com/Uzo-Felix/ecommerce',
@@ -46,24 +73,17 @@ export const projects = [
   },
   {
     title: 'Restiful Api',
-    description: "Restful API built with node, postgresql and postman",
+    description: "Student Management API built with node, postgresql and postman",
     image: 'https://uzo-felix.github.io/myPortfolio/images/postgres-logo-1.png',
     tags: ['node', 'postgresql', 'expressJs'],
     source: 'https://github.com/Uzo-Felix/restApi',
     visit: 'https://github.com/Uzo-Felix/restApi',
     id: 5,
   },
-  {
-    title: 'My Blog-Post',
-    description: "A MERN stack blog app where user can read, create and edit blog post",
-    image: 'https://uzo-felix.github.io/myPortfolio/images/blog.PNG',
-    tags: ['React,', 'Mongodb,', 'nodeJs,', 'JWT,', 'AWS cloud Storage'],
-    source: 'https://github.com/Uzo-Felix/Blog-app',
-    visit: 'https://github.com/Uzo-Felix/Blog-app',
-    id: 6,
-  },
 ];
 
 export const TimeLineData = [
-  { year: 2022, text: 'Started my journey', },
+  { year: 2022, text: 'Fullstack Intern at IGHub', },
+  { year: 2023, text: 'Software Engineer at Alx Africa', },
+  { year: 2023, text: 'Software Engineer at Lampnet solutions', },
 ];
